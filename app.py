@@ -361,8 +361,10 @@ def process():
             cdt[region] = json_data['values']
     
     # consolidate = {}
-    consolidate = defaultdict(list)
-    
+    # consolidate = defaultdict(list)
+    consolidate = []    
+    for i in range(12):
+        consolidate.append([])
     # for int in dict of object lists 
     for region in cdt:
         # after the first loop, stop on the first repeated date
@@ -411,11 +413,13 @@ def process():
             }
 
             # this should just be a list of lists 
+            # print(region)
             consolidate[region].append(entry)
     
     # for each region array 
     POINTS_AVG = 7
-    for region in consolidate:
+    # for region in consolidate:
+    for region in range(len(consolidate)):
         cases_sum = 0
         deaths_sum = 0
         test_pos_sum = 0
@@ -461,7 +465,7 @@ def process():
             deaths_sum -= consolidate[region][i - POINTS_AVG + 1]['deaths_change']
             test_pos_sum -= consolidate[region][i - POINTS_AVG + 1]['test_positivity']
             tests_sum -= consolidate[region][i - POINTS_AVG + 1]['tested_change']
-            
+
             i += 1
             
     ## cases_avg: 300

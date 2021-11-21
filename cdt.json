@@ -1,5 +1,5 @@
-{
-    "0": [
+[
+    [
         {
             "CumulativeCases": 160,
             "Deaths": 0,
@@ -8583,7 +8583,7 @@
             "tests_avg": 125611.14285714286
         }
     ],
-    "1": [
+    [
         {
             "CumulativeCases": 2,
             "Deaths": 0,
@@ -17167,7 +17167,7 @@
             "tests_avg": 5544.428571428572
         }
     ],
-    "2": [
+    [
         {
             "CumulativeCases": 2,
             "Deaths": 0,
@@ -25751,7 +25751,7 @@
             "tests_avg": 10723.142857142857
         }
     ],
-    "3": [
+    [
         {
             "CumulativeCases": 3,
             "Deaths": 0,
@@ -34335,7 +34335,7 @@
             "tests_avg": 5194.714285714285
         }
     ],
-    "4": [
+    [
         {
             "CumulativeCases": 4,
             "Deaths": 0,
@@ -42919,7 +42919,7 @@
             "tests_avg": 4015.4285714285716
         }
     ],
-    "5": [
+    [
         {
             "CumulativeCases": 0,
             "Deaths": 0,
@@ -51503,7 +51503,7 @@
             "tests_avg": 3345.285714285714
         }
     ],
-    "6": [
+    [
         {
             "CumulativeCases": 2,
             "Deaths": 0,
@@ -60087,7 +60087,7 @@
             "tests_avg": 9126.857142857143
         }
     ],
-    "7": [
+    [
         {
             "CumulativeCases": 2,
             "Deaths": 0,
@@ -68671,7 +68671,7 @@
             "tests_avg": 7210.571428571428
         }
     ],
-    "8": [
+    [
         {
             "CumulativeCases": 29,
             "Deaths": 0,
@@ -77255,7 +77255,7 @@
             "tests_avg": 12265.57142857143
         }
     ],
-    "9": [
+    [
         {
             "CumulativeCases": 9,
             "Deaths": 0,
@@ -85839,7 +85839,7 @@
             "tests_avg": 9371.42857142857
         }
     ],
-    "10": [
+    [
         {
             "CumulativeCases": 107,
             "Deaths": 1,
@@ -94423,7 +94423,7 @@
             "tests_avg": 27445.285714285714
         }
     ],
-    "11": [
+    [
         {
             "CumulativeCases": 0,
             "Deaths": 0,
@@ -103007,4 +103007,4 @@
             "tests_avg": 23802.14285714286
         }
     ]
-}
+]
