@@ -395,8 +395,10 @@ def process():
                 DeathsSum += day['Deaths']
                 DeathsChangeSum += day['DeathsChange']
                 TotalTestedSum += day['TotalTested']
-                if day['TotalTestedChange'] > 2000000:
-                    TotalTestedChangeSum = TotalTestedChangeSum
+                TotalTestedChangeSum = 0
+
+                if day['TotalTestedChange'] > 4000000 or day['TotalTestedChange'] < 0:
+                    TotalTestedChangeSum += 0
                 else:
                     TotalTestedChangeSum += day['TotalTestedChange']
                 
@@ -404,6 +406,9 @@ def process():
                     TestPositivity = CasesChangeSum / TotalTestedChangeSum
                 else:
                     TestPositivity = 0
+
+                # if TotalTestedChangeSum < 0 :
+                #     print (region, datum['ReportDate'], TotalTestedChangeSum)
 
             entry = {
                 "confirmed_cases_change": CasesChangeSum,
@@ -458,17 +463,24 @@ def process():
             deaths_sum += consolidate[region][i]['deaths_change']
             test_pos_sum += consolidate[region][i]['test_positivity']
             tests_sum += consolidate[region][i]['tested_change']
+
             # record avg = sum / 7 
             consolidate[region][i]['cases_avg'] = cases_sum / POINTS_AVG
             consolidate[region][i]['deaths_avg'] = deaths_sum / POINTS_AVG
             consolidate[region][i]['test_pos_avg'] = test_pos_sum / POINTS_AVG
             consolidate[region][i]['tests_avg'] = tests_sum / POINTS_AVG
+
+            # if region == 0:
+                # print (consolidate[region][i]['test_pos_avg'], region, consolidate[region][i]['date'] )
+
             # sum -= earliest day added to sum -= values[i-N+1]
 
             cases_sum -= consolidate[region][i - POINTS_AVG + 1]['confirmed_cases_change']
             deaths_sum -= consolidate[region][i - POINTS_AVG + 1]['deaths_change']
             test_pos_sum -= consolidate[region][i - POINTS_AVG + 1]['test_positivity']
             tests_sum -= consolidate[region][i - POINTS_AVG + 1]['tested_change']
+
+
 
             i += 1
             
