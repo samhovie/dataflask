@@ -2935,10 +2935,10 @@
             "date": "2020-10-12T00:00:00",
             "deaths_avg": 27.428571428571427,
             "deaths_change": 13,
-            "test_pos_avg": 0.026987144646949353,
-            "test_positivity": 0.00043145356264675833,
-            "tested_change": 6355261,
-            "tests_avg": 66977.57142857143
+            "test_pos_avg": 0.026925508423714103,
+            "test_positivity": 0,
+            "tested_change": 0,
+            "tests_avg": -840916.8571428572
         },
         {
             "CumulativeCases": 324743,
@@ -2949,10 +2949,10 @@
             "date": "2020-10-13T00:00:00",
             "deaths_avg": 27.0,
             "deaths_change": 28,
-            "test_pos_avg": 0.031637533489837374,
+            "test_pos_avg": 0.03157589726660213,
             "test_positivity": 0.05091707892057936,
             "tested_change": 55993,
-            "tests_avg": 62397.857142857145
+            "tests_avg": -845496.5714285715
         },
         {
             "CumulativeCases": 327605,
@@ -2963,10 +2963,10 @@
             "date": "2020-10-14T00:00:00",
             "deaths_avg": 28.0,
             "deaths_change": 49,
-            "test_pos_avg": 0.033012773768512284,
+            "test_pos_avg": 0.03295113754527703,
             "test_positivity": 0.054339364711689986,
             "tested_change": 52669,
-            "tests_avg": 61519.142857142855
+            "tests_avg": -846375.2857142857
         },
         {
             "CumulativeCases": 331620,
@@ -2977,10 +2977,10 @@
             "date": "2020-10-15T00:00:00",
             "deaths_avg": 31.0,
             "deaths_change": 53,
-            "test_pos_avg": 0.03553423244579689,
+            "test_pos_avg": 0.03547259622256164,
             "test_positivity": 0.05984855260412009,
             "tested_change": 67086,
-            "tests_avg": 60747.0
+            "tests_avg": -847147.4285714285
         },
         {
             "CumulativeCases": 336174,
@@ -2991,10 +2991,10 @@
             "date": "2020-10-16T00:00:00",
             "deaths_avg": 31.428571428571427,
             "deaths_change": 38,
-            "test_pos_avg": 0.03732480702235593,
+            "test_pos_avg": 0.03726317079912068,
             "test_positivity": 0.05189211362937134,
             "tested_change": 87759,
-            "tests_avg": 63055.57142857143
+            "tests_avg": -844838.8571428572
         },
         {
             "CumulativeCases": 339803,
@@ -3005,10 +3005,10 @@
             "date": "2020-10-17T00:00:00",
             "deaths_avg": 31.0,
             "deaths_change": 27,
-            "test_pos_avg": 0.037751573866712504,
+            "test_pos_avg": 0.03768993764347724,
             "test_positivity": 0.04683245363858096,
             "tested_change": 77489,
-            "tests_avg": 64660.28571428572
+            "tests_avg": -843234.1428571428
         },
         {
             "CumulativeCases": 344048,
@@ -3019,10 +3019,10 @@
             "date": "2020-10-18T00:00:00",
             "deaths_avg": 32.857142857142854,
             "deaths_change": 22,
-            "test_pos_avg": 0.045399230386947716,
+            "test_pos_avg": 0.04533759416371246,
             "test_positivity": 0.05353359564164649,
             "tested_change": 79296,
-            "tests_avg": 967936.1428571428
+            "tests_avg": 60041.71428571428
         },
         {
             "CumulativeCases": 347161,
@@ -3033,7 +3033,7 @@
             "date": "2020-10-19T00:00:00",
             "deaths_avg": 34.142857142857146,
             "deaths_change": 22,
-            "test_pos_avg": 0.054472305479838626,
+            "test_pos_avg": 0.05447230547983861,
             "test_positivity": 0.06394297921288308,
             "tested_change": 48684,
             "tests_avg": 66996.57142857143
@@ -3047,7 +3047,7 @@
             "date": "2020-10-20T00:00:00",
             "deaths_avg": 35.857142857142854,
             "deaths_change": 40,
-            "test_pos_avg": 0.056179452154297226,
+            "test_pos_avg": 0.05617945215429721,
             "test_positivity": 0.06286710564178953,
             "tested_change": 59077,
             "tests_avg": 67437.14285714286
@@ -3061,7 +3061,7 @@
             "date": "2020-10-21T00:00:00",
             "deaths_avg": 38.42857142857143,
             "deaths_change": 67,
-            "test_pos_avg": 0.05770365129049717,
+            "test_pos_avg": 0.057703651290497156,
             "test_positivity": 0.06500875866508961,
             "tested_change": 66791,
             "tests_avg": 69454.57142857143
@@ -3075,7 +3075,7 @@
             "date": "2020-10-22T00:00:00",
             "deaths_avg": 37.142857142857146,
             "deaths_change": 44,
-            "test_pos_avg": 0.05787238307461253,
+            "test_pos_avg": 0.05787238307461252,
             "test_positivity": 0.06102967509292762,
             "tested_change": 80977,
             "tests_avg": 71439.0
@@ -3089,7 +3089,7 @@
             "date": "2020-10-23T00:00:00",
             "deaths_avg": 36.142857142857146,
             "deaths_change": 31,
-            "test_pos_avg": 0.0571873480294963,
+            "test_pos_avg": 0.05718734802949628,
             "test_positivity": 0.04709686831355767,
             "tested_change": 82256,
             "tests_avg": 70652.85714285714
@@ -3103,7 +3103,7 @@
             "date": "2020-10-24T00:00:00",
             "deaths_avg": 41.285714285714285,
             "deaths_change": 63,
-            "test_pos_avg": 0.06103548496905288,
+            "test_pos_avg": 0.06103548496905287,
             "test_positivity": 0.07376941221547709,
             "tested_change": 83517,
             "tests_avg": 71514.0
@@ -3117,7 +3117,7 @@
             "date": "2020-10-25T00:00:00",
             "deaths_avg": 41.57142857142857,
             "deaths_change": 24,
-            "test_pos_avg": 0.06143650889718188,
+            "test_pos_avg": 0.061436508897181864,
             "test_positivity": 0.05634076313854945,
             "tested_change": 72097,
             "tests_avg": 70485.57142857143
@@ -3131,7 +3131,7 @@
             "date": "2020-10-26T00:00:00",
             "deaths_avg": 40.857142857142854,
             "deaths_change": 17,
-            "test_pos_avg": 0.06409928690369172,
+            "test_pos_avg": 0.06409928690369171,
             "test_positivity": 0.08258242525845208,
             "tested_change": 57264,
             "tests_avg": 71711.28571428571
@@ -3145,7 +3145,7 @@
             "date": "2020-10-27T00:00:00",
             "deaths_avg": 41.714285714285715,
             "deaths_change": 46,
-            "test_pos_avg": 0.06432387434170708,
+            "test_pos_avg": 0.06432387434170707,
             "test_positivity": 0.06443921770789703,
             "tested_change": 62074,
             "tests_avg": 72139.42857142857
@@ -3159,7 +3159,7 @@
             "date": "2020-10-28T00:00:00",
             "deaths_avg": 39.42857142857143,
             "deaths_change": 51,
-            "test_pos_avg": 0.0673737635057238,
+            "test_pos_avg": 0.06737376350572379,
             "test_positivity": 0.0863579828132067,
             "tested_change": 70752,
             "tests_avg": 72705.28571428571
@@ -3173,7 +3173,7 @@
             "date": "2020-10-29T00:00:00",
             "deaths_avg": 41.142857142857146,
             "deaths_change": 56,
-            "test_pos_avg": 0.06959966153232514,
+            "test_pos_avg": 0.06959966153232512,
             "test_positivity": 0.07661096127913697,
             "tested_change": 83056,
             "tests_avg": 73002.28571428571
@@ -3187,7 +3187,7 @@
             "date": "2020-10-30T00:00:00",
             "deaths_avg": 41.857142857142854,
             "deaths_change": 36,
-            "test_pos_avg": 0.07329995420964684,
+            "test_pos_avg": 0.07329995420964683,
             "test_positivity": 0.07299891705480964,
             "tested_change": 95111,
             "tests_avg": 74838.71428571429
@@ -3201,7 +3201,7 @@
             "date": "2020-10-31T00:00:00",
             "deaths_avg": 39.42857142857143,
             "deaths_change": 46,
-            "test_pos_avg": 0.07494278471985741,
+            "test_pos_avg": 0.0749427847198574,
             "test_positivity": 0.08526922578695108,
             "tested_change": 92636,
             "tests_avg": 76141.42857142857
@@ -3215,7 +3215,7 @@
             "date": "2020-11-01T00:00:00",
             "deaths_avg": 40.714285714285715,
             "deaths_change": 33,
-            "test_pos_avg": 0.07960336090743672,
+            "test_pos_avg": 0.07960336090743671,
             "test_positivity": 0.08896479645160468,
             "tested_change": 78458,
             "tests_avg": 77050.14285714286
@@ -3229,7 +3229,7 @@
             "date": "2020-11-02T00:00:00",
             "deaths_avg": 41.142857142857146,
             "deaths_change": 20,
-            "test_pos_avg": 0.08085465667621772,
+            "test_pos_avg": 0.0808546566762177,
             "test_positivity": 0.09134149563991896,
             "tested_change": 68118,
             "tests_avg": 78600.71428571429
@@ -3243,7 +3243,7 @@
             "date": "2020-11-03T00:00:00",
             "deaths_avg": 44.285714285714285,
             "deaths_change": 68,
-            "test_pos_avg": 0.08294106776763954,
+            "test_pos_avg": 0.08294106776763953,
             "test_positivity": 0.07904409534784983,
             "tested_change": 82435,
             "tests_avg": 81509.42857142857
@@ -3257,7 +3257,7 @@
             "date": "2020-11-04T00:00:00",
             "deaths_avg": 44.857142857142854,
             "deaths_change": 55,
-            "test_pos_avg": 0.08559032637251034,
+            "test_pos_avg": 0.08559032637251032,
             "test_positivity": 0.10490279304730228,
             "tested_change": 71857,
             "tests_avg": 81667.28571428571

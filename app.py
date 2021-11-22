@@ -395,7 +395,11 @@ def process():
                 DeathsSum += day['Deaths']
                 DeathsChangeSum += day['DeathsChange']
                 TotalTestedSum += day['TotalTested']
-                TotalTestedChangeSum += day['TotalTestedChange']
+                if day['TotalTestedChange'] > 2000000:
+                    TotalTestedChangeSum = TotalTestedChangeSum
+                else:
+                    TotalTestedChangeSum += day['TotalTestedChange']
+                
                 if (TotalTestedChangeSum > 0):
                     TestPositivity = CasesChangeSum / TotalTestedChangeSum
                 else:
